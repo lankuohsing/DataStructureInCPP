@@ -28,5 +28,6 @@ public:
 	LinkNode * Locate ( int i );
 	bool getData ( int i, int& x )const;
 	void reverseLinkedList ( );//反转单链表
+	LinkNode * midNode ( );//快速找到中间位置的结点
 };
 #endif

@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphMatrix", "GraphMatrix\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singly_Linked_List", "Singly_Linked_List\Singly_Linked_List.vcxproj", "{E048A761-02B8-4592-BB44-B36634A2037E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linked_List_with_Loop", "Circular_Linked_List\Circular_Linked_List.vcxproj", "{CCDE7917-BAF2-410C-9402-EE0E13D86008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{E048A761-02B8-4592-BB44-B36634A2037E}.Debug|Win32.Build.0 = Debug|Win32
 		{E048A761-02B8-4592-BB44-B36634A2037E}.Release|Win32.ActiveCfg = Release|Win32
 		{E048A761-02B8-4592-BB44-B36634A2037E}.Release|Win32.Build.0 = Release|Win32
+		{CCDE7917-BAF2-410C-9402-EE0E13D86008}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCDE7917-BAF2-410C-9402-EE0E13D86008}.Debug|Win32.Build.0 = Debug|Win32
+		{CCDE7917-BAF2-410C-9402-EE0E13D86008}.Release|Win32.ActiveCfg = Release|Win32
+		{CCDE7917-BAF2-410C-9402-EE0E13D86008}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

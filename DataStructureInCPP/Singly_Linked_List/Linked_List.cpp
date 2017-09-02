@@ -143,3 +143,18 @@ void Linked_List::reverseLinkedList ( )
 		q = p->link;
 	}
 }
+LinkNode * Linked_List::midNode ( )
+{
+	LinkNode *p, *q;
+	p = q = first;
+	while ( q->link&&q->link->link )
+	{
+		p = p->link;
+		q = q->link->link;
+	}
+	if ( q->link )
+	{
+		p = p->link;
+	}
+	return p;
+}

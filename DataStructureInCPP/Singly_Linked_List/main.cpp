@@ -18,6 +18,8 @@ int main ( )
 	cout << "反转单链表：" << endl;
 	link_list.reverseLinkedList ( );
 	link_list.output ( );
+	cout << "快速寻找中间位置的结点：";
+	cout << (link_list.midNode ( ))->data << endl;
 	cout << "Make List empty:" << endl;
 	link_list.makeEmpty ( );
 	system ( "pause" );
