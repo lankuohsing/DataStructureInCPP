@@ -1,7 +1,8 @@
 #ifndef GRAPHMATRIX_H_
 #define GRAPHMATRIX_H_
 /*用邻接矩阵表示的图的类定义*/
-static const int maxWeight = 2 ^ sizeof(int)-1;//无穷大的值
+#include<limits.h>
+static const int maxWeight = INT_MAX;//无穷大的值
 static const int DefaultVertices = 30;	    //默认最大顶点数(=n)
 #include<iostream>
 

@@ -142,7 +142,7 @@ istream& operator>>( istream& in, GraphMatrix&G )
 		}
 		else
 		{
-			G.insertEdge ( i, j, weight );
+			G.insertEdge ( j, k, weight );
 			i++;
 		}
 	}
